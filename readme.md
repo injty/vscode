@@ -1,4 +1,4 @@
-# powershell && oh-my-posh
+# vscode.
 
 > directory:
 
