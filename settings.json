@@ -1,0 +1,289 @@
+{
+  // ####################
+  // common
+  // "breadcrumbs.enabled": false,
+  "chatgpt.lang": "ru",
+  "files.autoSaveDelay": 1200,
+  "files.defaultLanguage": "html",
+  "files.eol": "\n",
+  "outline.collapseItems": "alwaysCollapse",
+  "postman.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "vscode_custom_css.imports": ["file:///C:/injty/vscode/custom.css"],
+  "vscode_custom_css.statusbar": false,
+
+  // ####################
+  // editor
+  "editor.bracketPairColorization.enabled": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fastScrollSensitivity": 1,
+  "editor.folding": false,
+  "editor.fontFamily": "robotomono nerd font propo",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "400",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.glyphMargin": false,
+  "editor.guides.bracketPairs": false,
+  "editor.guides.indentation": false,
+  "editor.hover.enabled": true,
+  "editor.inlayHints.fontFamily": "robotomono nerd font propo, jetbrainsmono nerd font mono, m+codelatx nerd font mono, firacode nerd font mono, intonemono nerd font mono, hack nerd font mono, iosevka fixed ss12",
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 1.1,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.autohide": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.mouseWheelScrollSensitivity": 3,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "selection",
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyTabStops": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.wordWrap": "off",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": true,
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false,
+    "source.sortImports": true,
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+
+  // ####################
+  // window:
+  "window.commandCenter": false,
+  "window.zoomLevel": 1,
+  "window.density.editorTabHeight": "compact",
+  "window.title": " ",
+  "window.titleSeparator": " — ",
+
+  // ####################
+  // terminal:
+  "terminal.integrated.copyOnSelection": false,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.fontFamily": "robotomono nerd font propo, jetbrainsmono nerd font mono, m+codelatx nerd font mono, caskaydiacove nerd font, cascadia code, hack nerd font mono, iosevka fixed ss12, firacode nerd font, jetbrains mono, sf mono",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.rightClickBehavior": "selectWord",
+  "terminal.integrated.smoothScrolling": true,
+
+  // ####################
+  // emmet:
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.showSuggestionsAsSnippets": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "vue-html": "html",
+    "php": "html"
+  },
+
+  // ####################
+  // git:
+  "git.allowForcePush": true,
+  "git.autoStash": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  // ####################
+  // configurations:
+  "javascript.autoClosingTags": true,
+  "javascript.preferences.importModuleSpecifierEnding": "minimal",
+  "javascript.preferences.quoteStyle": "double",
+  "javascript.suggest.autoImports": true,
+  "javascript.suggest.completeJSDocs": true,
+  "javascript.suggest.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.arrowParens": "always",
+  "prettier.bracketSameLine": true,
+  "prettier.bracketSpacing": true,
+  "prettier.enable": true,
+  "prettier.endOfLine": "lf",
+  "prettier.jsxSingleQuote": false,
+  "prettier.requireConfig": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.preferences.renameMatchingJsxTags": true,
+  "typescript.preferences.useAliasesForRenames": true,
+  "typescript.suggestionActions.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+
+  // ####################
+  // zen mode:
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideTabs": false,
+
+  // ####################
+  // vim:
+  "vim.autoindent": true,
+  "vim.easymotion": true,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.leader": "<space>",
+  "vim.sneak": true,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+
+  // ####################
+  // todo highlight
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.isEnable": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#ECECEC",
+      "backgroundColor": "#D24343"
+    }
+  ],
+
+  // ####################
+  // customization
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "extensions.ignoreRecommendations": true,
+  "workbench.colorTheme": "novasolarized",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.showIcons": true,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.productIconTheme": "feather-vscode",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 12,
+  "files.exclude": {
+    // "**/.vscode": true,
+    "**/node_modules": true,
+    "**/.yarn": true,
+    "**/.expo": true,
+    "**/.expo-shared": true,
+    "**/.next": true
+    // "**/.idea": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/.idea/": true,
+    "**/.yarn/": true,
+    "**/tmp": true,
+    "**.log": true,
+    "**/target": true
+  },
+  "workbench.colorCustomizations": {
+    "[novasolarized]": {
+      "list.inactiveSelectionBackground": "#112b36",
+      "list.activeSelectionBackground": "#002b36",
+      "sideBar.background": "#001b26"
+    }
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.folders.color": "#dd9933",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.opacity": 0.7,
+  "material-icon-theme.saturation": 0.7,
+  "git.openRepositoryInParentFolders": "always",
+}

@@ -1,0 +1,57 @@
+/* path for this file: file:///C:/devs/custom.css */
+.panel-header {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+#workbench.parts.sidebar {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+.part.sidebar.left {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+.part.activitybar.left {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+.monaco-workbench {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+.monaco-list .monaco-list-row.selected {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+.monaco-workbench .part.statusbar {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+.cdr.squiggly-error:after {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #a52e2e;
+	filter: blur(10px);
+}
+
+.monaco-editor .view-overlays .current-line {
+	font-family: "robotomono nerd font mono";
+	font-size: 13px;
+}
+
+.showUnused .monaco-editor .squiggly-inline-unnecessary {
+	transform: translateY(-3px);
+	opacity: 0.8;
+	filter: contrast(0.7);
+}
