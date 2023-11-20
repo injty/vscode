@@ -6,4 +6,4 @@
 
 > view:
 
-![23.10.2023, windows 11](./vscode.png)
+![23.10.2023, windows 11](./preview.png)
