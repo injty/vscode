@@ -1,8 +1,6 @@
 # vscode.
 
-> directory:
-
-```c:\users\{username}\injty\vscode```
+> directory: ```c:\users\{username}\injty\vscode```
 
 > view:
 
