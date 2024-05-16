@@ -1,60 +1,60 @@
 /* path for this file: file:///C:/devs/custom.css */
 .panel-header {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 #workbench.parts.sidebar {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .part.sidebar.left {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .part.activitybar.left {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .monaco-workbench {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .monaco-list .monaco-list-row.selected {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .monaco-workbench .part.statusbar {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .cdr.squiggly-error:after {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .monaco-editor .view-overlays .current-line {
-  font-family: "operator mono lig";
+  font-family: "monaspace neon var";
   font-size: 13px;
-  font-weight: 350;
+  font-weight: 450;
 }
 
 .showUnused .monaco-editor .squiggly-inline-unnecessary {

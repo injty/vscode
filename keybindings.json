@@ -46,20 +46,12 @@
     "when": "breadcrumbsPossible"
   },
   {
-    "key": "ctrl+alt+d",
-    "command": "sftp.download.activeFile"
-  },
-  {
     "key": "ctrl+alt+i",
     "command": "sftp.remoteExplorer.editInLocal"
   },
   {
     "key": "ctrl+alt+a",
     "command": "sftp.diff.activeFile"
-  },
-  {
-    "key": "ctrl+alt+u",
-    "command": "sftp.upload.activeFile"
   },
   {
     "key": "ctrl+shift+b",
@@ -162,6 +154,29 @@
     "key": "ctrl+shift+tab",
     "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
     "when": "!activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "-sftp.upload.changedFiles",
+    "when": "sftp.enabled"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "sftp.download.activeFile"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "sftp.upload.activeFile"
+  },
+  // shows editor suggest
+  {
+    "key": "ctrl+k",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
   }
-  // end: show active open editor files and navigation with `j` and `k`;
 ]
