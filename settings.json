@@ -7,8 +7,10 @@
   "files.eol": "\n",
   "outline.collapseItems": "alwaysCollapse",
   "security.workspace.trust.untrustedFiles": "open",
-  "vscode_custom_css.imports": ["file:///C:/injty/vscode/custom.css"],
-  "vscode_custom_css.statusbar": false,
+  "vscode_custom_css.imports": [
+    "file:///C:/injty/vscode/custom.css",
+    "file:///C:/injty/vscode/script.js"
+  ],
   "files.exclude": {
     "**/.vscode": false,
     "**/.next": true,
@@ -29,27 +31,21 @@
     "**.log": true,
     "**/target": true
   },
-
   // ####################
   // fonts
-  // "editor.fontLigatures": true,
-  // "editor.fontWeight": "400",
-  // uncommended if use monaspace neon var:
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 1.15,
-  "editor.fontFamily": "monaspace neon var, robotomono nerd font",
-  "editor.codeLensFontFamily": "monaspace neon var, robotomono nerd font",
-  "scm.inputFontFamily": "monaspace neon var, robotomono nerd font",
-  "debug.console.fontFamily": "monaspace neon var, robotomono nerd font",
-  "notebook.output.fontFamily": "monaspace neon var, robotomono nerd font",
-  "chat.editor.fontFamily": "monaspace neon var, robotomono nerd font",
-  "editor.inlayHints.fontFamily": "monaspace neon var, robotomono nerd font",
-  
-  // ####################
-  // editor
-  "editor.bracketPairColorization.enabled": false,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  // ligatures types: "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.letterSpacing": 0,
+  "editor.fontWeight": "350",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14.5,
+  // "editor.lineHeight": 1.25,
+  "editor.fontFamily": "monolisa, jetbrainsmono nerd font",
+  "editor.codeLensFontFamily": "monolisa, jetbrainsmono nerd font",
+  "scm.inputFontFamily": "monolisa, jetbrainsmono nerd font",
+  "debug.console.fontFamily": "monolisa, jetbrainsmono nerd font",
+  "notebook.output.fontFamily": "monolisa, jetbrainsmono nerd font",
+  "chat.editor.fontFamily": "monolisa, jetbrainsmono nerd font",
+  "editor.inlayHints.fontFamily": "monolisa, jetbrainsmono nerd font",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
@@ -97,27 +93,24 @@
     "enabled": true
   },
   "editor.stickyScroll.enabled": false,
-  "window.density.editorTabHeight": "compact",
-  "window.title": "${dirty}${activeEditorMedium}",
+  "window.title": " ",
   "window.titleSeparator": " — ",
-
   // ####################
   // terminal:
   "terminal.integrated.copyOnSelection": false,
-  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "block",
-  "terminal.integrated.defaultProfile.linux": "fish",
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.fontFamily": "monaspace neon var, robotomono nerd font",
-  "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "400",
-  "terminal.integrated.fontWeightBold": "500",
-  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.fontFamily": "monolisa, jetbrainsmono nerd font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.letterSpacing": 1,
   "terminal.integrated.gpuAcceleration": "auto",
   "terminal.integrated.rightClickBehavior": "selectWord",
   "terminal.integrated.smoothScrolling": true,
-  
   // ####################
   // emmet:
   "emmet.showExpandedAbbreviation": "never",
@@ -129,7 +122,6 @@
     "vue-html": "html",
     "php": "html"
   },
-
   // ####################
   // git:
   "git.allowForcePush": true,
@@ -137,7 +129,6 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-
   // ####################
   // configurations:
   "javascript.autoClosingTags": true,
@@ -176,7 +167,6 @@
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
-
   // ####################
   // zen mode:
   "zenMode.centerLayout": false,
@@ -187,7 +177,6 @@
   "zenMode.restore": true,
   "zenMode.showTabs": "none",
   "zenMode.silentNotifications": true,
-
   // ####################
   // vim:
   "vim.easymotion": true,
@@ -292,7 +281,6 @@
       ]
     }
   ],
-
   // ####################
   // todo highlight
   "todohighlight.isCaseSensitive": true,
@@ -304,7 +292,6 @@
       "backgroundColor": "#D24343"
     }
   ],
-
   // ####################
   // customization
   "explorer.compactFolders": false,
@@ -325,59 +312,85 @@
   "workbench.startupEditor": "none",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 12,
+  "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.folders.color": "#dd9933",
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.opacity": 0.7,
   "material-icon-theme.saturation": 0.7,
+  "gruvbox-material-icons.folders.theme": "specific",
   "gruvbox-material-icons.activeIconPack": "react",
-  "gruvbox-material-icons.folders.color": "#dd9933",
+  "gruvbox-material-icons.folders.color": "#D79921",
   "gruvbox-material-icons.hidesExplorerArrows": true,
   "gruvbox-material-icons.opacity": 0.7,
-  "gruvbox-material-icons.saturation": 0.7,
+  "gruvbox-material-icons.saturation": 0.5,
   "git.openRepositoryInParentFolders": "always",
   "diffEditor.hideUnchangedRegions.enabled": true,
   "redhat.telemetry.enabled": false,
   "editor.tokenColorCustomizations": {
-    // "textMateRules": [
-    //   {
-    //     "scope": [
-    //       "comment",
-    //       "variable.language",
-    //       "comment",
-    //       "entity.other.attribute-name",
-    //       "keyword",
-    //       "markup.underline.link",
-    //       "storage.modifier",
-    //       "storage.type",
-    //       "string.url",
-    //       "variable.language.super",
-    //       "variable.language.this",
-    //       "keyword.operator",
-    //       "keyword.other.type",
-    //       "storage.modifier.import",
-    //       "storage.modifier.package",
-    //       "storage.type.built-in",
-    //       "storage.type.function.arrow",
-    //       "storage.type.generic",
-    //       "storage.type.java",
-    //       "storage.type.primitive"
-    //     ],
-    //     "settings": {
-    //       "fontStyle": ""
-    //     }
-    //   }
-    // ]
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "variable.language",
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this",
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
   },
   "workbench.colorCustomizations": {
+    "[GitHub Dark Colorblind (Beta)]": {
+      "statusBar.background": "#010409",
+    },
     "[novasolarized]": {
-      "statusBar.border": "#112b3699"
+      // "tab.activeBorderTop": "#e9dbb0",
+    },
+    "[Visual Studio Dark]": {
+      "statusBar.background": "#2a2d2e",
+    },
+    "[Default Dark+]": {
+      "statusBar.background": "#2a2d2e",
     },
     "[Min Dark]": {
       "tab.activeBorderTop": "#dd9933"
+    },
+    "[gruvboxConcoctis dark hard]": {
+      "tab.border": "#00000000",
+      "tab.activeBorderTop": "#00000000",
+      "sideBar.border": "#00000000",
+      "statusBar.border": "#00000000",
+    },
+    "[Min Gruvbox]": {
+      "sideBar.background": "#202020",
+      "statusBar.background": "#202020",
+      "titleBar.activeBackground": "#202020",
+      "tab.inactiveBackground": "#202020",
+      "tab.activeBorder": "#00000000",
+      "tab.border": "#00000000",
+      "editorLineNumber.foreground": "#6e695f",
+      "editorLineNumber.activeForeground": "#ccb891",
     }
   },
-  "window.zoomLevel": 0,
   "files.associations": {
     "*.embeddedhtml": "html",
     ".env*": "dotenv"
@@ -394,15 +407,26 @@
   "explorer.decorations.colors": false,
   "workbench.tree.renderIndentGuides": "none",
   "editor.matchBrackets": "near",
-  "workbench.iconTheme": "gruvbox-material-icons",
   "terminal.integrated.rescaleOverlappingGlyphs": true,
   "window.customTitleBarVisibility": "windowed",
-  "workbench.colorTheme": "gruvboxConcoctis dark medium",
   "workbench.editor.editorActionsLocation": "hidden",
-  "gitlens.graph.minimap.enabled": false,
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "hidden",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.zoomLevel": 0,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "workbench.colorTheme": "novasolarized",
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
-  "workbench.layoutControl.enabled": false
+  "window.density.editorTabHeight": "compact",
+  "editor.bracketPairColorization.enabled": false,
+  "codeium.enableCodeLens": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "salad-icons",
+  "workbench.activityBar.location": "hidden"
 }
