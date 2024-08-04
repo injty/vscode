@@ -1,0 +1,41 @@
+{
+  "functional component with props": {
+    "prefix": "fcc",
+    "body": [
+      "import { FC } from \"react\";",
+      "",
+      "interface ${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}Props {",
+      "  className?: string;",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}: FC<${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}Props> = ({ className }) => {",
+      "  return (",
+      "    <div className={className}>",
+      "      <div>${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}$1</div>",
+      "    </div>",
+      "  );",
+      "};"
+    ],
+    "description": "typescript react functional component with props"
+  },
+  "functional component with props and cn with classname": {
+    "prefix": "fcn",
+    "body": [
+      "import { cn } from \"@/lib/utils\";",
+      "import { FC } from \"react\";",
+      "",
+      "interface ${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}Props {",
+      "  className?: string;",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}: FC<${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}Props> = ({ className }) => {",
+      "  return (",
+      "    <div className={cn(\"\", className)}>",
+      "      <div>${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}$1</div>",
+      "    </div>",
+      "  );",
+      "};"
+    ],
+    "description": "typescript react functional component with props and cn()"
+  }
+}
