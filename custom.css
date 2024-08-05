@@ -20,7 +20,7 @@
   top: 45% !important;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
   padding: 10px 10px 18px 10px !important;
-  backdrop-filter: blur(3px) !important;
+  /* backdrop-filter: blur(3px) !important; */
 }
 
 #command-blur {
@@ -30,11 +30,29 @@
   background: rgba(0, 0, 0, .15);
   top: 0;
   left: 0;
-  backdrop-filter: blur(8px);
+  /* backdrop-filter: blur(8px); */
 }
 
 .editor-group-watermark {
   max-width: none !important;
+}
+
+/* editor menubar */
+.menubar {
+  padding-left: 8px !important;
+}
+
+.window-appicon {
+  display: none !important;
+}
+
+/* editor icons arrows hidding */
+.monaco-tl-twistie {
+  width: 0 !important;
+}
+
+.monaco-tl-twistie::before {
+  display: none !important;
 }
 
 /* fonts */
