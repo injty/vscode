@@ -4,13 +4,13 @@
 > examples:
 
 theme: novasolarized.  
-icons: salad icons.  
-fonts: monolisa, robotomono nerd font.  
+icons: nomo dark for visual studio code/salad icons.
+fonts: monolisa, rubik.  
 ![23.10.2023, windows 11](./novasolarized.png)
 
 -----
 
-theme: gruvbox concoctis dark medium.  
-icons: gruvbox material icons.  
-fonts: monaspace neon var, robotomono nerd font.  
+theme: min gruvbox.  
+icons: studio icons/nomo dark for visual studio code/salad icons.  
+fonts: monolisa, rubik.  
 ![16.05.2024, windows 11](./gruvbox.png)

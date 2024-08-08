@@ -15,13 +15,17 @@
     "command": "editor.action.showHover"
   },
   {
-    // go to next error/warn
-    "key": "ctrl+j",
-    "command": "editor.action.marker.nextInFiles"
+    // focus previous error
+    "key": "ctrl+alt+k",
+    "command": "editor.action.marker.prev",
+    "when": "editorFocus"
   },
-  // -----------------
-  // other keybindings
-  // -----------------
+  {
+    // focus next error
+    "key": "ctrl+alt+j",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus"
+  },
   {
     "key": "ctrl+b",
     "command": "workbench.action.toggleActivityBarVisibility"
@@ -178,5 +182,23 @@
     "key": "ctrl+i",
     "command": "-editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "postman-for-vscode.sidebar-panel.focus"
+  },
+  {
+    "key": "unknown",
+    "command": "-postman-for-vscode.sidebar-panel.focus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
   }
 ]

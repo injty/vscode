@@ -7,6 +7,7 @@
   "files.eol": "\n",
   "outline.collapseItems": "alwaysCollapse",
   "security.workspace.trust.untrustedFiles": "open",
+  "postman.telemetry.enabled": false,
   "vscode_custom_css.imports": [
     "file:///C:/injty/vscode/custom.css",
     "file:///C:/injty/vscode/script.js"
@@ -34,18 +35,16 @@
   // ####################
   // fonts
   // ligatures types: "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
-  "editor.letterSpacing": 0,
-  "editor.fontWeight": "350",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14.5,
-  // "editor.lineHeight": 1.25,
-  "editor.fontFamily": "monolisa, jetbrainsmono nerd font",
-  "editor.codeLensFontFamily": "monolisa, jetbrainsmono nerd font",
-  "scm.inputFontFamily": "monolisa, jetbrainsmono nerd font",
-  "debug.console.fontFamily": "monolisa, jetbrainsmono nerd font",
-  "notebook.output.fontFamily": "monolisa, jetbrainsmono nerd font",
-  "chat.editor.fontFamily": "monolisa, jetbrainsmono nerd font",
-  "editor.inlayHints.fontFamily": "monolisa, jetbrainsmono nerd font",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.25,
+  "editor.fontFamily": "monolisa, rubik",
+  "editor.codeLensFontFamily": "monolisa, robotomono nerd font",
+  "scm.inputFontFamily": "monolisa, robotomono nerd font",
+  "debug.console.fontFamily": "monolisa, robotomono nerd font",
+  "notebook.output.fontFamily": "monolisa, robotomono nerd font",
+  "chat.editor.fontFamily": "monolisa, robotomono nerd font",
+  "editor.inlayHints.fontFamily": "monolisa, robotomono nerd font",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
@@ -83,7 +82,7 @@
   "editor.wordWrapColumn": 160,
   "editor.suggest.preview": true,
   "editor.codeActionsOnSave": {
-    "source.addMissingImports": "explicit",
+    "source.addMissingImports": "never",
     "source.fixAll": "explicit",
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never",
@@ -104,7 +103,7 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.fontWeight": "400",
   "terminal.integrated.fontWeightBold": "400",
-  "terminal.integrated.fontFamily": "monolisa, jetbrainsmono nerd font",
+  "terminal.integrated.fontFamily": "monolisa, robotomono nerd font",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.4,
   "terminal.integrated.letterSpacing": 1,
@@ -153,6 +152,7 @@
   "prettier.trailingComma": "all",
   "prettier.useTabs": false,
   "prettier.printWidth": 160,
+  // languages
   "typescript.preferences.importModuleSpecifierEnding": "minimal",
   "typescript.preferences.includePackageJsonAutoImports": "on",
   "typescript.preferences.quoteStyle": "double",
@@ -186,6 +186,7 @@
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.sneak": true,
+  "vim.showcmd": false,
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
@@ -194,7 +195,10 @@
     "<C-x>": false,
     "<C-v>": false,
     "<C-z>": false,
-    "<C-y>": false
+    "<C-y>": false,
+    "<C-j>": false,
+    "<C-k>": false,
+    "<C-p>": false,
   },
   "vim.normalModeKeyBindings": [
     {
@@ -295,7 +299,7 @@
   // ####################
   // customization
   "explorer.compactFolders": false,
-  "explorer.confirmDelete": true,
+  "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": true,
   "extensions.ignoreRecommendations": true,
   "workbench.editor.closeOnFileDelete": true,
@@ -311,19 +315,13 @@
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tree.expandMode": "singleClick",
-  "workbench.tree.indent": 12,
+  "workbench.tree.indent": 10,
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.folders.color": "#dd9933",
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.opacity": 0.7,
   "material-icon-theme.saturation": 0.7,
-  "gruvbox-material-icons.folders.theme": "specific",
-  "gruvbox-material-icons.activeIconPack": "react",
-  "gruvbox-material-icons.folders.color": "#D79921",
-  "gruvbox-material-icons.hidesExplorerArrows": true,
-  "gruvbox-material-icons.opacity": 0.7,
-  "gruvbox-material-icons.saturation": 0.5,
   "git.openRepositoryInParentFolders": "always",
   "diffEditor.hideUnchangedRegions.enabled": true,
   "redhat.telemetry.enabled": false,
@@ -363,7 +361,8 @@
       "statusBar.background": "#010409",
     },
     "[novasolarized]": {
-      // "tab.activeBorderTop": "#e9dbb0",
+      "widget.border": "#0000",
+      "input.border": "#0000",
     },
     "[Visual Studio Dark]": {
       "statusBar.background": "#2a2d2e",
@@ -381,14 +380,21 @@
       "statusBar.border": "#00000000",
     },
     "[Min Gruvbox]": {
+      "editorSuggestWidget.border": "#202020",
+      "contrastBorder": "#00000000",
+      "editorGroup.border": "#202020",
       "sideBar.background": "#202020",
       "statusBar.background": "#202020",
       "titleBar.activeBackground": "#202020",
-      "tab.inactiveBackground": "#202020",
+      "tab.inactiveForeground": "#6e695f",
+      "tab.inactiveBackground": "#1a1a1a",
       "tab.activeBorder": "#00000000",
+      "tab.activeBackground": "#202020",
       "tab.border": "#00000000",
       "editorLineNumber.foreground": "#6e695f",
       "editorLineNumber.activeForeground": "#ccb891",
+      "editor.lineHighlightBackground": "#202020",
+      "editor.lineHighlightBorder": "#0000"
     }
   },
   "files.associations": {
@@ -421,12 +427,15 @@
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
-  "workbench.colorTheme": "novasolarized",
-  "window.commandCenter": false,
   "window.density.editorTabHeight": "compact",
-  "editor.bracketPairColorization.enabled": false,
   "codeium.enableCodeLens": false,
+  "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "salad-icons",
-  "workbench.activityBar.location": "hidden"
+  "gruvboxConcoctis.useItalicFont": false,
+  "gruvboxConcoctis.useBoldFont": false,
+  "workbench.colorTheme": "Min Gruvbox",
+  "workbench.iconTheme": "vscode-icon-theme",
+  "workbench.activityBar.location": "hidden",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairsHorizontal": false
 }

@@ -55,51 +55,56 @@
   display: none !important;
 }
 
+/* remove custom css and js extention icon from statusbar */
+div#be5invis\.vscode-custom-css {
+  display: none !important;
+}
+
 /* fonts */
 .panel-header {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
 
 #workbench.parts.sidebar {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
 
 .part.sidebar.left {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
 
 .part.activitybar.left {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
 
 .monaco-workbench {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
 
 .monaco-list .monaco-list-row.selected {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
 
 .monaco-workbench .part.statusbar {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
 
 .cdr.squiggly-error:after {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   content: "";
   position: absolute;
@@ -109,7 +114,7 @@
 }
 
 .monaco-editor .view-overlays .current-line {
-  font-family: "monolisa";
+  font-family: "rubik";
   font-size: 13px;
   font-weight: 400;
 }
