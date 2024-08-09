@@ -195,10 +195,7 @@
     "<C-x>": false,
     "<C-v>": false,
     "<C-z>": false,
-    "<C-y>": false,
-    "<C-j>": false,
-    "<C-k>": false,
-    "<C-p>": false,
+    "<C-y>": false
   },
   "vim.normalModeKeyBindings": [
     {
@@ -358,17 +355,17 @@
   },
   "workbench.colorCustomizations": {
     "[GitHub Dark Colorblind (Beta)]": {
-      "statusBar.background": "#010409",
+      "statusBar.background": "#010409"
     },
     "[novasolarized]": {
       "widget.border": "#0000",
-      "input.border": "#0000",
+      "input.border": "#0000"
     },
     "[Visual Studio Dark]": {
-      "statusBar.background": "#2a2d2e",
+      "statusBar.background": "#2a2d2e"
     },
     "[Default Dark+]": {
-      "statusBar.background": "#2a2d2e",
+      "statusBar.background": "#2a2d2e"
     },
     "[Min Dark]": {
       "tab.activeBorderTop": "#dd9933"
@@ -377,7 +374,7 @@
       "tab.border": "#00000000",
       "tab.activeBorderTop": "#00000000",
       "sideBar.border": "#00000000",
-      "statusBar.border": "#00000000",
+      "statusBar.border": "#00000000"
     },
     "[Min Gruvbox]": {
       "editorSuggestWidget.border": "#202020",
@@ -434,7 +431,7 @@
   "gruvboxConcoctis.useItalicFont": false,
   "gruvboxConcoctis.useBoldFont": false,
   "workbench.colorTheme": "Min Gruvbox",
-  "workbench.iconTheme": "vscode-icon-theme",
+  "workbench.iconTheme": "vs-nomo-dark",
   "workbench.activityBar.location": "hidden",
   "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairsHorizontal": false
