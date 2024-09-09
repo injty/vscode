@@ -1,6 +1,6 @@
 {
   "functional component with props": {
-    "prefix": "fcc",
+    "prefix": "!fc",
     "body": [
       "import { FC } from \"react\";",
       "",
@@ -19,9 +19,9 @@
     "description": "typescript react functional component with props"
   },
   "functional component with props and cn with classname": {
-    "prefix": "fcn",
+    "prefix": "!fcn",
     "body": [
-      "import { cn } from \"@/lib/utils\";",
+      "import { cn } from \"@/utils/helpers/cn\";",
       "import { FC } from \"react\";",
       "",
       "interface ${TM_FILENAME_BASE/(.*)$/${1:/pascalcase}/}Props {",
@@ -37,5 +37,17 @@
       "};"
     ],
     "description": "typescript react functional component with props and cn()"
+  },
+  "log with comment": {
+    "prefix": "!cl",
+    "body": [
+      "console.log(\"[${TM_FILENAME_BASE/(.*)$/${1:/upcase}/} LOG]:\", $1)"
+    ]
+  },
+  "log error with comment": {
+    "prefix": "!cle",
+    "body": [
+      "console.log(\"[${TM_FILENAME_BASE/(.*)$/${1:/upcase}/} ERROR]:\", error)"
+    ]
   }
 }
