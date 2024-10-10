@@ -62,61 +62,61 @@ div#be5invis\.vscode-custom-css {
 
 /* fonts */
 .panel-header {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 #workbench.parts.sidebar {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .part.sidebar.left {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .part.activitybar.left {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .monaco-workbench {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .monaco-list .monaco-list-row.selected {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .monaco-workbench .part.statusbar {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .cdr.squiggly-error:after {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .monaco-editor .view-overlays .current-line {
-  font-family: "jetbrainsmono nerd font";
+  font-family: "jetbrains mono";
   font-size: 13px;
-  font-weight: 250;
+  font-weight: 400;
 }
 
 .showUnused .monaco-editor .squiggly-inline-unnecessary {
