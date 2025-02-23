@@ -1,7 +1,8 @@
 /* path for this file: file:///C:/injty/vscode/custom.css */
 
 * {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
+  font-style: normal !important;
 }
 
 .titlebar-container .menubar {
@@ -85,49 +86,49 @@ div#be5invis\.vscode-custom-css {
 
 /* fonts */
 .panel-header {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
 
 #workbench.parts.sidebar {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
 
 .part.sidebar.left {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
 
 .part.activitybar.left {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
 
 .monaco-workbench {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
 
 .monaco-list .monaco-list-row.selected {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
 
 .monaco-workbench .part.statusbar {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
 
 .cdr.squiggly-error:after {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   content: "";
   position: absolute;
@@ -137,7 +138,7 @@ div#be5invis\.vscode-custom-css {
 }
 
 .monaco-editor .view-overlays .current-line {
-  font-family: 'imwritingmono nerd font';
+  font-family: 'geist mono';
   font-size: 13px;
   font-weight: 400;
 }
