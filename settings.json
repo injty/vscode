@@ -1,17 +1,19 @@
 {
-  "window.titleBarStyle": "custom",
-  "breadcrumbs.enabled": false,
-  "breadcrumbs.showClasses": false,
-  "files.autoSaveDelay": 1200,
-  "files.defaultLanguage": "html",
-  "files.eol": "\n",
-  "outline.collapseItems": "alwaysCollapse",
-  "security.workspace.trust.untrustedFiles": "open",
-  "postman.telemetry.enabled": false,
+  // customization
   "vscode_custom_css.imports": [
     "file:///C:/injty/vscode/custom.css",
-    "file:///C:/injty/vscode/script.js"
+    "file:///C:/injty/vscode/script.js",
   ],
+  // ####################
+  // default
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.showClasses": false,
+  "files.eol": "\n",
+  "files.autoSaveDelay": 1200,
+  "files.insertFinalNewline": false,
+  "files.defaultLanguage": "html",
+  "outline.collapseItems": "alwaysCollapse",
+  "postman.telemetry.enabled": false,
   "files.exclude": {
     "**/.vscode": false,
     "**/.next": true,
@@ -34,19 +36,19 @@
   },
   // ####################
   // fonts
-  // ligatures types: "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.lineHeight": 1.35,
-  "editor.fontWeight": "250",
-  "editor.fontFamily": "jetbrainsmono nerd font, iosevka term expanded",
-  "editor.codeLensFontFamily": "jetbrainsmono nerd font",
-  "scm.inputFontFamily": "jetbrainsmono nerd font",
-  "debug.console.fontFamily": "jetbrainsmono nerd font",
-  "notebook.output.fontFamily": "jetbrainsmono nerd font",
-  "chat.editor.fontFamily": "jetbrainsmono nerd font",
-  "editor.inlayHints.fontFamily": "jetbrainsmono nerd font",
-  "editor.cursorBlinking": "smooth",
+  "editor.fontLigatures": "",
+  // "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.25,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "geist mono",
+  "editor.codeLensFontFamily": "geist mono",
+  "scm.inputFontFamily": "geist mono",
+  "debug.console.fontFamily": "geist mono",
+  "notebook.output.fontFamily": "geist mono",
+  "chat.editor.fontFamily": "geist mono",
+  "editor.inlayHints.fontFamily": "geist mono",
+  "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 2,
@@ -68,10 +70,16 @@
   "editor.minimap.renderCharacters": false,
   "editor.mouseWheelScrollSensitivity": 3,
   "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "selection",
+  "editor.renderWhitespace": "none",
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.scrollbar.verticalScrollbarSize": 0,
-  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "editor.stickyTabStops": true,
   "editor.suggest.insertMode": "replace",
@@ -87,7 +95,7 @@
     "source.fixAll": "explicit",
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never",
-    "source.sortImports": "explicit"
+    "source.sortImports": "explicit",
   },
   "editor.semanticTokenColorCustomizations": {
     "enabled": true
@@ -100,14 +108,14 @@
   "terminal.integrated.copyOnSelection": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "block",
-  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.fontWeight": "250",
-  "terminal.integrated.fontWeightBold": "250",
-  "terminal.integrated.fontFamily": "jetbrainsmono nerd font",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.fontFamily": "geist mono",
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1,
-  "terminal.integrated.letterSpacing": 0,
+  "terminal.integrated.letterSpacing": 1,
   "terminal.integrated.gpuAcceleration": "auto",
   "terminal.integrated.rightClickBehavior": "selectWord",
   "terminal.integrated.smoothScrolling": true,
@@ -129,6 +137,7 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "git.decorations.enabled": false,
   // ####################
   // configurations:
   "javascript.autoClosingTags": true,
@@ -140,19 +149,19 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   // ####################
   // prettier:
-  "prettier.arrowParens": "always",
-  "prettier.bracketSameLine": true,
-  "prettier.bracketSpacing": true,
   "prettier.enable": true,
-  "prettier.endOfLine": "lf",
-  "prettier.jsxSingleQuote": false,
   "prettier.requireConfig": true,
-  "prettier.semi": true,
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.trailingComma": "all",
-  "prettier.useTabs": false,
-  "prettier.printWidth": 160,
+  // "prettier.arrowParens": "always",
+  // "prettier.bracketSameLine": true,
+  // "prettier.bracketSpacing": true,
+  // "prettier.endOfLine": "auto",
+  // "prettier.jsxSingleQuote": false,
+  // "prettier.semi": true,
+  // "prettier.singleQuote": false,
+  // "prettier.tabWidth": 2,
+  // "prettier.trailingComma": "all",
+  // "prettier.useTabs": false,
+  // "prettier.printWidth": 180,
   // languages
   "typescript.preferences.importModuleSpecifierEnding": "minimal",
   "typescript.preferences.includePackageJsonAutoImports": "on",
@@ -165,18 +174,15 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
   // ####################
   // zen mode:
   "zenMode.centerLayout": false,
   "zenMode.fullScreen": false,
   "zenMode.hideActivityBar": true,
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false,
+  "zenMode.hideStatusBar": true,
   "zenMode.restore": true,
-  "zenMode.showTabs": "none",
+  "zenMode.showTabs": "single",
   "zenMode.silentNotifications": true,
   // ####################
   // vim:
@@ -234,7 +240,17 @@
       "after": [
         "$"
       ]
-    }
+    },
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -281,6 +297,16 @@
       "after": [
         "$"
       ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
     }
   ],
   // ####################
@@ -290,14 +316,19 @@
   "todohighlight.keywords": [
     {
       "text": "NOTE:",
-      "color": "#ECECEC",
+      "color": "#fff",
       "backgroundColor": "#D24343"
+    },
+    {
+      "text": "REVIEW:",
+      "color": "#fff",
+      "backgroundColor": "#859900"
     }
   ],
   // ####################
   // customization
   "explorer.compactFolders": false,
-  "explorer.confirmDelete": true,
+  "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": true,
   "extensions.ignoreRecommendations": true,
   "workbench.editor.closeOnFileDelete": true,
@@ -309,73 +340,152 @@
   "workbench.editor.tabSizing": "fit",
   "workbench.editor.wrapTabs": false,
   "workbench.list.smoothScrolling": true,
-  "workbench.productIconTheme": "feather-vscode",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
-  "material-icon-theme.folders.theme": "specific",
-  "material-icon-theme.activeIconPack": "react",
-  "material-icon-theme.folders.color": "#dd9933",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.opacity": 0.7,
-  "material-icon-theme.saturation": 0.7,
   "git.openRepositoryInParentFolders": "always",
   "diffEditor.hideUnchangedRegions.enabled": true,
-  "redhat.telemetry.enabled": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "comment",
-          "variable.language",
-          "comment",
-          "entity.other.attribute-name",
-          "keyword",
-          "markup.underline.link",
-          "storage.modifier",
-          "storage.type",
-          "string.url",
-          "variable.language.super",
-          "variable.language.this",
-          "keyword.operator",
-          "keyword.other.type",
-          "storage.modifier.import",
-          "storage.modifier.package",
-          "storage.type.built-in",
-          "storage.type.function.arrow",
-          "storage.type.generic",
-          "storage.type.java",
-          "storage.type.primitive"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
   "workbench.colorCustomizations": {
-    "[GitHub Dark Colorblind (Beta)]": {
-      "statusBar.background": "#010409"
-    },
-    "[novasolarized]": {
-      "widget.border": "#0000",
-      "input.border": "#0000"
-    },
     "[Visual Studio Dark]": {
-      "statusBar.background": "#2a2d2e"
+      "statusBar.background": "#2a2d2e",
+      "statusBar.foreground": "#a3a3a3",
+      "titleBar.activeBackground": "#252526",
+      "titleBar.inactiveBackground": "#252526",
+      "titleBar.activeForeground": "#a3a3a3",
+      "titleBar.inactiveForeground": "#a3a3a3",
+      "titleBar.border": "#00000000",
+      "editorLineNumber.activeForeground": "#c9c9c9",
+      "editor.lineHighlightBackground": "#2a2d2e",
+      "editor.lineHighlightBorder": "#00000000",
     },
     "[Default Dark+]": {
-      "statusBar.background": "#2a2d2e"
+      "statusBar.background": "#2a2d2e",
+      "statusBar.foreground": "#a3a3a3",
+      "titleBar.activeBackground": "#252526",
+      "titleBar.inactiveBackground": "#252526",
+      "titleBar.activeForeground": "#a3a3a3",
+      "titleBar.inactiveForeground": "#a3a3a3",
+      "titleBar.border": "#00000000",
+      "editorLineNumber.activeForeground": "#c9c9c9",
+      "editor.lineHighlightBackground": "#2a2d2e",
+      "editor.lineHighlightBorder": "#00000000",
     },
     "[Min Dark]": {
-      "tab.activeBorderTop": "#dd9933"
+      "editorGroup.border": "#292929",
+      "editorLineNumber.foreground": "#3f3f3f",
+      "editor.lineHighlightBackground": "#292929",
+      "editor.lineHighlightBorder": "#00000000",
+      "activityBar.activeBackground": "#202020",
+      "activityBar.activeBorder": "#00000000",
+      "activityBar.background": "#181818",
+      "activityBar.border": "#292929",
+      "activityBarBadge.foreground": "#c2c2c2",
+      "button.background": "#252525",
+      "descriptionForeground": "#c2c2c2",
+      "diffEditor.border": "#292929",
+      "dropdown.background": "#242424",
+      "dropdown.border": "#292929",
+      "dropdown.foreground": "#c2c2c2",
+      "editor.background": "#212121",
+      "editor.foreground": "#c2c2c2",
+      "editor.selectionBackground": "#373737",
+      "editor.selectionForeground": "#c2c2c2",
+      "editorCursor.background": "#232323",
+      "editorCursor.foreground": "#c2c2c2",
+      "editorLineNumber.activeForeground": "#c2c2c2",
+      "editorSuggestWidget.background": "#252525",
+      "editorSuggestWidget.border": "#202020",
+      "editorSuggestWidget.selectedBackground": "#1f1f1f",
+      "editorWidget.background": "#1c1c1c",
+      "input.foreground": "#c2c2c2",
+      "input.placeholderForeground": "#c2c2c2",
+      "input.border": "#292929",
+      "list.activeSelectionForeground": "#c2c2c2",
+      "list.focusBackground": "#242424",
+      "list.focusForeground": "#c2c2c2",
+      "list.focusHighlightForeground": "#c2c2c2",
+      "list.hoverBackground": "#242424",
+      "list.inactiveFocusBackground": "#242424",
+      "list.inactiveSelectionBackground": "#242424",
+      "menu.background": "#191919",
+      "menu.border": "#242424",
+      "menu.foreground": "#c2c2c2",
+      "menu.selectionBackground": "#242424",
+      "menu.selectionForeground": "#c2c2c2",
+      "notifications.background": "#242424",
+      "notifications.foreground": "#c2c2c2",
+      "panel.border": "#292929",
+      "profileBadge.background": "#c2c2c2",
+      "quickInput.background": "#242424",
+      "quickInput.foreground": "#c2c2c2",
+      "scrollbar.shadow": "#00000020",
+      "sideBar.background": "#181818",
+      "sideBar.border": "#29292900",
+      "sideBar.dropBackground": "#191919",
+      "sideBar.foreground": "#c2c2c2",
+      "sideBarSectionHeader.background": "#202020",
+      "sideBarSectionHeader.border": "#00000000",
+      "sideBarTitle.foreground": "#c2c2c2",
+      "sideBySideEditor.horizontalBorder": "#00000000",
+      "statusBar.background": "#151515",
+      "statusBar.border": "#0000",
+      "statusBar.debuggingBackground": "#151515",
+      "statusBar.foreground": "#c2c2c2",
+      "statusBar.noFolderBackground": "#151515",
+      "statusBar.noFolderForeground": "#c2c2c2",
+      "statusBarItem.remoteBackground": "#c2c2c2",
+      "statusBarItem.remoteForeground": "#151515",
+      "tab.activeBackground": "#121212",
+      "tab.activeBorderTop": "#0000",
+      "tab.activeBorder": "#0000",
+      "tab.activeForeground": "#c2c2c2",
+      "tab.border": "#0000",
+      "tab.hoverForeground": "#DFC08A",
+      "tab.inactiveForeground": "#606060",
+      "terminal.border": "#00000000",
+      "terminal.background": "#1f1f1f",
+      "titleBar.activeBackground": "#151515",
+      "titleBar.activeForeground": "#989898",
+      "titleBar.border": "#00000000",
+      "titleBar.inactiveBackground": "#151515",
+      "tree.indentGuidesStroke": "#ffffff10",
+      "widget.border": "#00000000",
+      "widget.shadow": "#0002"
     },
-    "[gruvboxConcoctis dark hard]": {
-      "tab.border": "#00000000",
-      "tab.activeBorderTop": "#00000000",
-      "sideBar.border": "#00000000",
-      "statusBar.border": "#00000000"
+    "[novasolarized]": {
+      "input.border": "#919ba1",
+      "inputOption.activeBorder": "#0000",
+      "inputOption.activeBackground": "#b58900",
+      "inputOption.activeForeground": "#fff",
+      "progressBar.background": "#919ba1",
+      "selection.background": "#001b26",
+      "editor.findMatchBorder": "#b58900",
+      "editorWidget.background": "#112b36",
+      "editorWidget.resizeBorder": "#112b36",
+      "debugToolBar.background": "#08202b",
+      "debugToolBar.border": "#919ba1",
+      "editorHoverWidget.background": "#112b36",
+      "editorHoverWidget.border": "#919ba1",
+      "peekView.border": "#919ba1",
+      "peekViewEditor.background": "#08202b",
+      "peekViewEditorGutter.background": "#08202b",
+      "peekViewResult.background": "#001b26",
+      "peekViewResult.fileForeground": "#919ba1",
+      "peekViewResult.selectionBackground": "#112b36",
+      "peekViewResult.selectionForeground": "#919ba1",
+      "peekViewTitle.background": "#08202b",
+      "peekViewTitleDescription.foreground": "#919ba1",
+      "peekViewTitleLabel.foreground": "#b58900",
+      "peekViewEditor.matchHighlightBackground": "#213b46",
+      // dark mode
+      "editor.background": "#05161e",
+      "editorGutter.background": "#05161e",
+      "statusBar.background": "#001b26",
+      "titleBar.activeBackground": "#001b26",
+      "tab.activeBackground": "#05161e",
+      "activityBar.background": "#112b36",
+      "activityBar.border": "#001b2600",
     },
     "[Min Gruvbox]": {
       "editorSuggestWidget.border": "#202020",
@@ -392,8 +502,35 @@
       "editorLineNumber.foreground": "#6e695f",
       "editorLineNumber.activeForeground": "#ccb891",
       "editor.lineHighlightBackground": "#202020",
-      "editor.lineHighlightBorder": "#0000"
-    }
+      "editor.lineHighlightBorder": "#00000000"
+    },
+    "[Matey]": {
+      "tab.activeBorderTop": "#00000000",
+      "tab.activeBorder": "#00000000",
+      "tab.activeForeground": "#c2c2c2",
+      "tab.activeBackground": "#171c28"
+    },
+    "[Ayu Mirage Zed]": {
+      "editorCursor.foreground": "#cccac2",
+      "editor.selectionBackground": "#454D65",
+    },
+    "[Catppuccin Noctis Macchiato]": {
+      "tab.activeBorder": "#0000",
+      "tab.activeBorderTop": "#0000",
+      "tab.activeBackground": "#1e2030",
+    },
+    "[Catppuccin Noctis Mocha]": {
+      "tab.activeBorder": "#0000",
+      "tab.activeBorderTop": "#0000",
+      "tab.activeBackground": "#11111b",
+      "editorGroupHeader.tabsBorder": "#181825",
+    },
+    "[Popping and Locking Black Theme]": {
+      "tab.activeBorder": "#0000",
+      "tab.activeBorderTop": "#0000",
+      "tab.activeBackground": "#212121",
+      "tab.border": "#0000",
+    },
   },
   "files.associations": {
     "*.embeddedhtml": "html",
@@ -412,29 +549,29 @@
   "workbench.tree.renderIndentGuides": "none",
   "editor.matchBrackets": "near",
   "terminal.integrated.rescaleOverlappingGlyphs": true,
-  "window.customTitleBarVisibility": "windowed",
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.sideBar.location": "right",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.zoomLevel": 0,
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
+  "color-highlight.markerType": "dot-before",
+  "editor.colorDecorators": false,
   "window.density.editorTabHeight": "compact",
-  "codeium.enableCodeLens": false,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "gruvboxConcoctis.useItalicFont": false,
-  "gruvboxConcoctis.useBoldFont": false,
-  "workbench.iconTheme": "eyecons",
-  "eyecons.folderColor": "orange",
   "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairsHorizontal": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Visual Studio Dark"
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "terminal.integrated.tabs.location": "left",
+  "workbench.productIconTheme": "feather-vscode",
+  "catppuccin-noctis-icons.hidesExplorerArrows": false,
+  "catppuccin-icons.associations.folders": {},
+  "workbench.iconTheme": "charmed-icons",
+  "window.titleBarStyle": "custom",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Catppuccin Noctis Mocha",
+  "workbench.statusBar.visible": false
 }
