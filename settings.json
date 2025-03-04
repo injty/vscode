@@ -1,8 +1,8 @@
 {
   // customization
   "vscode_custom_css.imports": [
-    "file:///C:/injty/vscode/custom.css",
-    "file:///C:/injty/vscode/script.js",
+    "file:///C:/injty/dotfiles/vscode/custom.css",
+    "file:///C:/injty/dotfiles/vscode/script.js"
   ],
   // ####################
   // default
@@ -13,7 +13,6 @@
   "files.insertFinalNewline": false,
   "files.defaultLanguage": "html",
   "outline.collapseItems": "alwaysCollapse",
-  "postman.telemetry.enabled": false,
   "files.exclude": {
     "**/.vscode": false,
     "**/.next": true,
@@ -36,18 +35,17 @@
   },
   // ####################
   // fonts
-  "editor.fontLigatures": "",
-  // "editor.fontLigatures": true,
+  "editor.fontLigatures": true,
   "editor.fontSize": 14,
-  "editor.lineHeight": 1.25,
+  "editor.lineHeight": 1.2,
   "editor.fontWeight": "400",
-  "editor.fontFamily": "geist mono",
-  "editor.codeLensFontFamily": "geist mono",
-  "scm.inputFontFamily": "geist mono",
-  "debug.console.fontFamily": "geist mono",
-  "notebook.output.fontFamily": "geist mono",
-  "chat.editor.fontFamily": "geist mono",
-  "editor.inlayHints.fontFamily": "geist mono",
+  "editor.fontFamily": "maple mono",
+  "editor.codeLensFontFamily": "maple mono",
+  "scm.inputFontFamily": "maple mono",
+  "debug.console.fontFamily": "maple mono",
+  "notebook.output.fontFamily": "maple mono",
+  "chat.editor.fontFamily": "maple mono",
+  "editor.inlayHints.fontFamily": "maple mono",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
@@ -76,13 +74,13 @@
     "comments": "off",
     "strings": "off"
   },
-  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggestOnTriggerCharacters": true,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "editor.stickyTabStops": true,
-  "editor.suggest.insertMode": "replace",
+  "editor.suggest.insertMode": "insert",
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
   "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -95,7 +93,7 @@
     "source.fixAll": "explicit",
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never",
-    "source.sortImports": "explicit",
+    "source.sortImports": "explicit"
   },
   "editor.semanticTokenColorCustomizations": {
     "enabled": true
@@ -112,7 +110,7 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.fontWeight": "400",
   "terminal.integrated.fontWeightBold": "400",
-  "terminal.integrated.fontFamily": "geist mono",
+  "terminal.integrated.fontFamily": "maple mono",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.letterSpacing": 1,
@@ -250,7 +248,7 @@
         "d",
         "d"
       ]
-    },
+    }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -357,7 +355,7 @@
       "titleBar.border": "#00000000",
       "editorLineNumber.activeForeground": "#c9c9c9",
       "editor.lineHighlightBackground": "#2a2d2e",
-      "editor.lineHighlightBorder": "#00000000",
+      "editor.lineHighlightBorder": "#00000000"
     },
     "[Default Dark+]": {
       "statusBar.background": "#2a2d2e",
@@ -369,7 +367,7 @@
       "titleBar.border": "#00000000",
       "editorLineNumber.activeForeground": "#c9c9c9",
       "editor.lineHighlightBackground": "#2a2d2e",
-      "editor.lineHighlightBorder": "#00000000",
+      "editor.lineHighlightBorder": "#00000000"
     },
     "[Min Dark]": {
       "editorGroup.border": "#292929",
@@ -486,6 +484,8 @@
       "tab.activeBackground": "#05161e",
       "activityBar.background": "#112b36",
       "activityBar.border": "#001b2600",
+      "editorGroupHeader.tabsBorder": "#00000000",
+      "editorGroupHeader.tabsBackground": "#08202b"
     },
     "[Min Gruvbox]": {
       "editorSuggestWidget.border": "#202020",
@@ -512,25 +512,26 @@
     },
     "[Ayu Mirage Zed]": {
       "editorCursor.foreground": "#cccac2",
-      "editor.selectionBackground": "#454D65",
+      "editor.selectionBackground": "#454D65"
     },
     "[Catppuccin Noctis Macchiato]": {
       "tab.activeBorder": "#0000",
       "tab.activeBorderTop": "#0000",
-      "tab.activeBackground": "#1e2030",
+      "tab.activeBackground": "#1e2030"
     },
     "[Catppuccin Noctis Mocha]": {
       "tab.activeBorder": "#0000",
       "tab.activeBorderTop": "#0000",
       "tab.activeBackground": "#11111b",
-      "editorGroupHeader.tabsBorder": "#181825",
+      "editorGroupHeader.tabsBorder": "#00000000",
+      "editorGroupHeader.tabsBackground": "#181825"
     },
     "[Popping and Locking Black Theme]": {
       "tab.activeBorder": "#0000",
       "tab.activeBorderTop": "#0000",
       "tab.activeBackground": "#212121",
-      "tab.border": "#0000",
-    },
+      "tab.border": "#0000"
+    }
   },
   "files.associations": {
     "*.embeddedhtml": "html",
@@ -568,10 +569,9 @@
   "terminal.integrated.tabs.location": "left",
   "workbench.productIconTheme": "feather-vscode",
   "catppuccin-noctis-icons.hidesExplorerArrows": false,
-  "catppuccin-icons.associations.folders": {},
   "workbench.iconTheme": "charmed-icons",
   "window.titleBarStyle": "custom",
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorTheme": "Catppuccin Noctis Mocha",
-  "workbench.statusBar.visible": false
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "novasolarized"
 }
