@@ -1,9 +1,14 @@
-/* path for this file: file:///C:/injty/vscode/custom.css */
+/* styling for linux */
+/* path for this file: file:///home/injty/dotfiles/vscode/custom.css */
 
-* {
-  font-family: 'iosevka slab';
+/* * {
+  font-family: 'jetbrains mono';
+  font-feature-settings:
+    "cv13" 1, "cv14" 1, "onum" 1, "ss01" 1,
+    "cv10" 1, "cv29" 1, "cv30" 1, "ss09" 1,
+    "cv25" 1, "cv26" 1, "cv32" 1, "cv28" 1;
   font-style: normal !important;
-}
+} */
 
 .titlebar-container .menubar {
   padding-left: 35px !important;
@@ -76,48 +81,43 @@
 }
 
 /* remove custom css and js extention icon from statusbar */
-div#be5invis\.vscode-custom-css {
+/* div#be5invis\.vscode-custom-css {
   display: none !important;
-}
+} */
 
 /* fonts */
-.panel-header {
-  font-family: 'iosevka slab';
+/* .panel-header {
+  font-family: 'jetbrains mono';
   font-size: 13px;
 }
 
 #workbench.parts.sidebar {
-  font-family: 'iosevka slab';
+  font-family: 'jetbrains mono';
   font-size: 13px;
 }
 
 .part.sidebar.left {
-  font-family: 'iosevka slab';
+  font-family: 'jetbrains mono';
   font-size: 13px;
 }
 
 .part.activitybar.left {
-  font-family: 'iosevka slab';
+  font-family: 'jetbrains mono';
   font-size: 13px;
 }
 
 .monaco-workbench {
-  font-family: 'iosevka slab';
-  font-size: 13px;
-}
-
-.monaco-list .monaco-list-row.selected {
-  font-family: 'iosevka slab';
+  font-family: 'jetbrains mono';
   font-size: 13px;
 }
 
 .monaco-workbench .part.statusbar {
-  font-family: 'iosevka slab';
+  font-family: 'jetbrains mono';
   font-size: 13px;
 }
 
 .cdr.squiggly-error:after {
-  font-family: 'iosevka slab';
+  font-family: 'jetbrains mono';
   font-size: 13px;
   content: "";
   position: absolute;
@@ -126,7 +126,7 @@ div#be5invis\.vscode-custom-css {
 }
 
 .monaco-editor .view-overlays .current-line {
-  font-family: 'iosevka slab';
+  font-family: 'jetbrains mono';
   font-size: 13px;
 }
 
@@ -134,3 +134,8 @@ div#be5invis\.vscode-custom-css {
   transform: translateY(-3px);
   opacity: 0.8;
 }
+
+.monaco-list .monaco-list-row.selected {
+  font-family: 'jetbrains mono';
+  font-size: 13px;
+} */
