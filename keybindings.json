@@ -200,5 +200,50 @@
     "key": "ctrl+p",
     "command": "-extension.vim_ctrl+p",
     "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-workbench.action.chat.openEditSession",
+    "when": "chatEditingParticipantRegistered && view != 'workbench.panel.chat.view.edits'"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.chat.open"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-workbench.action.chat.open"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "novaquick.showOpenedFiles"
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "-novaquick.showOpenedFiles"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "list.find",
+    "when": "listFocus && listSupportsFind"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "-list.find",
+    "when": "listFocus && listSupportsFind"
   }
 ]

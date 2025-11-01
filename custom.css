@@ -1,14 +1,14 @@
 /* styling for linux */
 /* path for this file: file:///home/injty/dotfiles/vscode/custom.css */
 
-* {
-  /* font-family: 'maple mono'; */
+/* * { */
+  /* font-family: 'jetbrains mono'; */
   /* font-feature-settings:
     "cv13" 1, "cv14" 1, "onum" 1, "ss01" 1,
     "cv10" 1, "cv29" 1, "cv30" 1, "ss09" 1,
     "cv25" 1, "cv26" 1, "cv32" 1, "cv28" 1; */
-  font-style: normal !important;
-}
+  /* font-style: normal !important; */
+/* } */
 
 .titlebar-container .menubar {
   /* padding-left: 35px !important; */
@@ -30,71 +30,72 @@
   width: auto;
 }
 
-div[role="menuitem"] {
+/* div[role="menuitem"] {
   font-size: 12px;
-}
+} */
 
 
 /* footer */
 .monaco-workbench .part.statusbar {
   padding-top: 2px !important;
   padding-bottom: 2px !important;
-  font-size: 12px !important;
+  /* font-size: 12px !important; */
 }
 
 /* vim settings */
-div#vscodevim\.vim\.primary {
+/* div#vscodevim\.vim\.primary {
   margin-left: 20px;
   border-radius: 10px;
-  background: #97c897;
+  background: #B58900;
   color: #1e1e2e !important;
 }
 
 div[aria-label*="NORMAL"] {
-  background-color: #89b4fa !important;
+  background-color: #859900 !important;
 }
 div[aria-label*="INSERT"] {
-  background-color: #a6e3a1 !important;
+  background-color: #DC322F !important;
 }
 div[aria-label*="VISUAL"] {
-  background-color: #cba6f7 !important;
+  background-color: #B95CD3 !important;
 }
 div[aria-label*="VISUAL LINE"] {
-  background-color: #cba6f7 !important;
-}
+  background-color: #B95CD3 !important;
+} */
 
 /* git branch */
-div#status\.scm\.0 {
+/* div#status\.scm\.0 {
   background: #313244;
   order: 2;
   border-radius: 10px;
   margin-left:10px;
-}
+} */
 
-div#vscodevim\.vim\.primary {
+/* div#vscodevim\.vim\.primary {
     margin-left: 15px;
     border-radius: 10px;
-}
+} */
 
-div#status\.editor\.selection {
-    background: #313244;
+/* div#status\.editor\.selection {
+    background: #B58900;
+    color: #1e1e2e;
     order: -1;
     margin-right: 15px;
     border-radius: 10px;
-}
+} */
 
 /* views */
 .monaco-editor .scroll-decoration {
-  /* box-shadow: 0px 0px 20px #00000075 !important; */
+  box-shadow: 0px 0px 20px #00000075 !important;
   top: -6px !important;
 }
 
-/* .part.sidebar {
+.part.sidebar {
   box-shadow: 0px 0px 20px #00000045 !important;
-} */
+}
 
 .monaco-scrollable-element>.shadow.top {
-  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, .75) !important; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .75) !important;
   top: -3px !important;
 }
 
@@ -133,63 +134,3 @@ div#status\.editor\.selection {
 .monaco-tl-twistie::before {
   display: none !important;
 }
-
-/* remove custom css and js extention icon from statusbar */
-/* div#be5invis\.vscode-custom-css {
-  display: none !important;
-} */
-
-/* fonts */
-/* .panel-header {
-  font-family: 'maple mono';
-  font-size: 13px;
-}
-
-#workbench.parts.sidebar {
-  font-family: 'maple mono';
-  font-size: 13px;
-}
-
-.part.sidebar.left {
-  font-family: 'maple mono';
-  font-size: 13px;
-}
-
-.part.activitybar.left {
-  font-family: 'maple mono';
-  font-size: 13px;
-}
-
-.monaco-workbench {
-  font-family: 'maple mono';
-  font-size: 13px;
-}
-
-.monaco-workbench .part.statusbar {
-  font-family: 'maple mono';
-  font-size: 13px;
-}
-
-.cdr.squiggly-error:after {
-  font-family: 'maple mono';
-  font-size: 13px;
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-.monaco-editor .view-overlays .current-line {
-  font-family: 'maple mono';
-  font-size: 13px;
-}
-
-.showUnused .monaco-editor .squiggly-inline-unnecessary {
-  transform: translateY(-3px);
-  opacity: 0.8;
-}
-
-.monaco-list .monaco-list-row.selected {
-  font-family: 'maple mono';
-  font-size: 13px;
-} */
